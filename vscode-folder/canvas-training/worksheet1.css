@@ -1,0 +1,48 @@
+header {
+    
+    height: 70px;
+    background-color: darkblue;
+    padding: 5px;
+    margin-top: auto;
+}
+img {
+    background-color: white;
+    width: 250px;
+    position: relative;
+}
+nav ul {
+    list-style-type: none;
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    
+}
+nav a:link,nav a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-top: none;
+}
+nav a:hover{
+    background-color: dimgray;
+}
+.graph {
+    margin-right: 20px;
+    float: right;
+    position: relative;
+}
+.neo {
+    color: white;
+    background-color: deeppink;
+}
+aside p {
+    width: 350px;
+    float: left;
+    background-color: honeydew;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    
+}

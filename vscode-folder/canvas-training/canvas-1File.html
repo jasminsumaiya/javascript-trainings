@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>canvas training</title>
+        <style>
+            canvas {
+                border: #80c2b3 20px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id = "trcanvas" width = "400" height = "400"></canvas>
+        <script>
+            var canvas = document.querySelector("#trcanvas");
+            var context = canvas.getContext("2d");
+
+            context.moveTo(50,50);
+            context.lineTo(50,100);
+            context.lineTo(100,100);
+            context.lineTo(100,50);
+            context.closePath();
+            context.lineWidth = 5;
+            context.strokeStyle = "skyblue";
+            context.fillStyle = "#ff6677";
+            context.stroke();
+            context.fill();
+
+            context.moveTo(50, 50);
+            context.lineTo(300,300);
+            context.closePath();
+            
+            context.lineWidth = 45;
+            context.strokeStyle = "steelblue";
+            
+            context.stroke();
+
+
+        </script>
+    </body>
+</html>

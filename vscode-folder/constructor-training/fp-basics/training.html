@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <title>Simple Example</title>
+
+  <script src="training1.js"></script>
+  <script src="training2.js"></script>
+  <style>
+    .important {
+      color: orange;
+    }
+
+    .warning {
+      color: blue;
+    }
+
+    .warning.important {
+      color: red;
+    }
+
+    input:in-range {
+      border: 1px solid blue;
+    }
+
+    input:not([disabled]):not(.example) {
+      background-color: #ccc;
+    }
+
+    div {
+      height: 80px;
+    }
+
+    input {
+      margin: 30px;
+    }
+
+    div:focus-within {
+      background-color: #1565C0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="warning">
+    <p>This would be some warning copy.</p>
+  </div>
+  <div class="important warning"> hi i am sumaiya</div>
+  <p class="important">This is some really important warning copy.</p>
+  <input type="number" min="10" max="20" value="15">
+
+  <form>
+    Phone: <input type="tel" class="example">
+    E-mail: <input type="email" disabled="disabled">
+    Password: <input type="password">
+  </form>
+
+  <p> Background is blue if the input is focused .</p>
+  <div>
+    <input type="text">
+  </div>
+
+
+
+</body>
+
+</html>
